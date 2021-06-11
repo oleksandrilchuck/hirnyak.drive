@@ -1,0 +1,54 @@
+//global
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: $color-yellow;
+    color: $color-dark;
+}
+//hero
+.hero-btn{
+    padding-top: 105px;
+ 
+}
+.hero-button{
+    max-width: 458px;
+    max-height: 60px;
+    padding: 17px 85px;
+    border-radius: 60px;
+    padding: 11px 114px;
+    text-transform: uppercase;
+    font-family: $font-r;
+    font-size: $button;
+    font-weight: $fm;
+}
+//study
+.study__item-btn {
+    padding-bottom: 46px;
+    max-width: 257px;
+    max-height: 55px;
+    font-family: $font-r;
+    font-size: $button-card;
+    font-weight: $fm;
+    padding: 5px 26px 9px 26px;
+    border-radius: 45px;
+}
+.study-wrapper-btn{
+    padding-bottom: 47px;
+}
+.button-body{
+    max-width: 458px;
+    max-height: 60px;
+    padding: 17px 85px;
+    border-radius: 60px;
+    padding: 11px 19px;
+    text-transform: uppercase;
+    font-family: $font-r;
+    font-size: $button_body;
+    font-weight: $fm;
+}
+.cost-btn{
+    padding-top: 65px;
+    padding-bottom: 96px;
+}
