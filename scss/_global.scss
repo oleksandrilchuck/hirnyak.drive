@@ -8,3 +8,6 @@ body{
     color: $color-white;
     background-color: $color-black;
 }
+body.lock-scroll {
+	overflow: hidden;
+}
