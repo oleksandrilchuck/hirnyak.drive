@@ -99,6 +99,13 @@ body.lock-scroll {
   overflow: hidden;
 }
 
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  z-index: 2;
+}
+
 .btn-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -537,29 +544,6 @@ body.lock-scroll {
 
 .popup__text-text {
   padding-left: 30px;
-}
-
-.popup__list li {
-  padding: 0 20px;
-}
-
-.popup__list ul {
-  list-style-type: square;
-  list-style-image: url(../img/icons/arrowpr.svg);
-  list-style-position: inside;
-}
-
-.popup__list-item span {
-  color: #FAFF04;
-}
-
-.popup__list-item li {
-  padding-left: 40px;
-  padding-bottom: 20px;
-}
-
-.popup__list-item li:last-child {
-  padding-bottom: 30px;
 }
 
 .popup__btns {

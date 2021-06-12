@@ -62,28 +62,6 @@
     padding-left: 30px;
 
 }
-
-.popup__list li{
-    padding: 0 20px;
-}
-.popup__list ul{
-    list-style-type: square;
-    list-style-image: url(../img/icons/arrowpr.svg);
-    list-style-position: inside;  
-}
-
-.popup__list-item span {
-    color: $color-yellow;
-}
-
-.popup__list-item li {
-    padding-left: 40px;
-    padding-bottom: 20px;
-}
-.popup__list-item li:last-child {
-    padding-bottom: 30px;
-}
-
 .popup__btns {
     display: flex;
     justify-content: space-around;
