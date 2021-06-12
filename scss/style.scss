@@ -2,71 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@300;400;500&display=swap');
 @import "vendor";
 @import "global";
+@import "buttons";
+@import "header";
 @import "slider";
 @import "video";
-@import "buttons";
 @import "spollers";
-
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 50;
-}
-.header::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, #11141B  0%, rgba(17, 20, 27, 0) 100%);
-    z-index: 2;
-}
-.header__body {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    height: 120px;
-    align-items: center;
-}
-.header__logo {
-    flex: 0 0 120px;
-    // border-radius: 50%;
-    overflow: hidden;
-    position: relative;
-    z-index: 3;
-}
-.header__logo img{
-    max-width: 100%;
-    display: block;
-}
-.header__burger {
-    display: none;
-}
-.header__menu {
-}
-.header__list {
-    display: flex;
-    position: relative;
-    z-index: 2;
-}
-.header__list li {
-    list-style: none;
-    margin: 0px 0px 0px 20px;
-}
-.header__link {
-    font-family: $font-r;
-    text-transform: lowercase;
-    color: $color-white;
-    font-size: $nav;
-    text-decoration: none;
-    transition: all .5s;
-}
-.header__link:hover{
-    color: $color-red;
-}
 
 //hero
 .hero {
@@ -143,6 +83,7 @@
     border-radius: 20px;
     text-align: center;
     box-shadow: 4px 4px 4px $color-yellow;
+    margin-bottom: 20px;
 
 }
 .card__title {
@@ -360,6 +301,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .study__item-title {
     font-family: $font-m;
@@ -381,9 +323,10 @@
 }
 .cost__block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    margin: 0 auto;
 }
 .cost__item {
     width: 263px;
@@ -391,6 +334,8 @@
     background-color: $color-grey;
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 .cost__item-title {
     font-family: $font-r;
@@ -522,7 +467,5 @@
 .footer__link a{
     color: $color-red;
 }
-
-
 
 @import "mobile";
