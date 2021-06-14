@@ -1,17 +1,16 @@
 .video__inner-video {
-    max-width: 480px;
-    // max-height: 485px;  
+    max-width: 570px;
     width: 100%;
+    max-height: 393px;   
     border-radius: 20px; 
     overflow: hidden;
 }
-
 .video__item{
-
+    max-width: 570px;
+    width: 100%;
 }
 #video {
-    max-width: 480px;
-    // height: 393px;
+    max-width: 570px;
     width: 100%;
     position: relative;
 }
@@ -36,16 +35,20 @@
     background: url('/img/icons/button_play.png');
     z-index: 1;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: 0.5s ease;
     transition-property: opacity, visibility;
+}
+#video-play:hover{
+    transform: scale(1.2);
 }
 #video-play:hover::before {
     transform: scale(1.2);
 }
  #video video {
-    width: 480px;
+    max-width: 570px;
+    width: 100%;
     display: block;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 #video.video-is-playing #video-over {
     display: block;

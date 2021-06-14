@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	//burger
     $('.header__burger').click(function(event) {
         $('.header__burger, .header__menu').toggleClass('active');
         $('body').toggleClass('lock');
@@ -8,29 +9,21 @@ $(document).ready(function() {
         $('.header__burger, .header__menu').toggleClass('active');
 		$('body').toggleClass('lock');
     });
-
+	//slider
 	$('.slider').slick({
 		dots: true,
-		
-	});
-
-	$('.reviews__slider').slick({
-		arrows: true,
-		adaptiveHeight: true,
-		slidesToShow: 1,
 		responsive:[
 			{
-				breakpoint: 640,
+				breakpoint: 768,
 				settings: {
 					arrows: false,
-					dots: true,
 				}
 			}
 		]
-
-
 	});
 
+
+	//scroll
 	$('a[href^="#"], *[data-href^="#"]').on('click', function(e){
         e.preventDefault();
         var t = 1000;

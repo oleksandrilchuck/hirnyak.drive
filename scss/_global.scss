@@ -1,19 +1,19 @@
+
+body{
+    color: $color-white;
+    background-color: $color-black;
+    overflow-x: hidden;
+}
+body.lock-scroll {
+	overflow: hidden;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0px 10px;
     z-index: 2;
 }
-body{
-    color: $color-white;
-    background-color: $color-black;
-}
-body.lock-scroll {
-	overflow: hidden;
-}
 .wrapper{
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0px 10px;
-    z-index: 2;
 }
