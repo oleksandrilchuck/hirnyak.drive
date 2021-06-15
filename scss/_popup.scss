@@ -72,6 +72,7 @@
     background-color: $color-yellow;
     border-radius: 50px;
 	margin-top: 20px;
+	transition: all .5s;
 }
 .btns__wrapper a {
     color: $color-dark;
@@ -79,7 +80,9 @@
     font-size: $button-card;
     font-weight: $fm;
 }
-
+.btns__wrapper:hover{
+	background-color: $color-red;
+}
 
 
 

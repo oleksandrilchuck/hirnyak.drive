@@ -217,12 +217,12 @@ body.lock-scroll {
   overflow: hidden;
   position: relative;
   z-index: 3;
+  margin-left: 15px;
 }
 
 .header__logo img {
   max-width: 100%;
   display: block;
-  margin-left: 15px;
 }
 
 .header__burger {
@@ -566,6 +566,8 @@ body.lock-scroll {
   background-color: #FAFF04;
   border-radius: 50px;
   margin-top: 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .btns__wrapper a {
@@ -573,6 +575,10 @@ body.lock-scroll {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   font-weight: 500;
+}
+
+.btns__wrapper:hover {
+  background-color: #FF0404;
 }
 
 .hero {
@@ -789,6 +795,41 @@ body.lock-scroll {
 
 .rewiew__text span {
   color: #FF0404;
+}
+
+.reviews__more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.reviews__more-text {
+  padding-top: 25px;
+}
+
+.reviews__more-text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.reviews__more-button {
+  padding-top: 25px;
+}
+
+.more-btnin {
+  padding: 11px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 50px;
 }
 
 .about {
@@ -1124,6 +1165,16 @@ body.lock-scroll {
   margin-bottom: 70px;
 }
 
+.messengers__item {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.messengers__item:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
 .socials {
   width: 246px;
   height: 60px;
@@ -1135,6 +1186,16 @@ body.lock-scroll {
           justify-content: space-between;
   margin: 0 auto;
   margin-bottom: 90px;
+}
+
+.socials__item {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.socials__item:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .footer {
@@ -1374,7 +1435,7 @@ body.lock-scroll {
 @media (max-width: 768px) {
   .slider {
     padding: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .slider__wrapper {
     -webkit-box-orient: vertical;

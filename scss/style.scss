@@ -182,6 +182,33 @@
 .rewiew__text span{
     color: $color-red;
 }
+.reviews__more {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+.reviews__more-text {
+    padding-top: 25px;
+}
+.reviews__more-text p{
+    font-family: $font-m;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.reviews__more-button {
+    padding-top: 25px;
+}
+.more-btnin{
+    padding: 11px ;
+    font-family: $font-r;
+    font-weight: $fm;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
 //about
 .about {
     background-image: url(../img/weel.png);
@@ -430,6 +457,12 @@
     margin: 0 auto;
     margin-bottom: 70px;
 }
+.messengers__item{
+    transition: all .5s;
+}
+.messengers__item:hover{
+    transform: scale(1.25);
+}
 .socials {
     width: 246px;
     height: 60px;
@@ -437,6 +470,12 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 90px;
+}
+.socials__item{
+    transition: all .5s;
+}
+.socials__item:hover{
+    transform: scale(1.25);
 }
 //footer    
 .footer {
