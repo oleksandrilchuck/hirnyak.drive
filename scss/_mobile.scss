@@ -190,7 +190,7 @@
     }
 }
 //section__reviews
-@media (max-width: 768px){
+@media (max-width: 876px){
     .slider {
         padding: 0px;
         padding-bottom: 10px;
@@ -201,9 +201,13 @@
     }
     .slider__img{
         max-width: 197px;
-        max-height: 197px;
-        padding: 0 15px;
-        margin-bottom: 20px;
+        max-height: 197px; 
+        margin-bottom: 15px;
+    }
+    .slider__img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;  
     }
     .rewiew__text {
         font-size: $m-card-text;
@@ -217,6 +221,14 @@
     .slider .slick-dots li button{
         width: 12px;
         height: 12px;
+    }
+}
+@media (max-width: 360px){
+    .rewiew__text {
+        font-family: $font-r;
+        font-size: $m-review-text;
+        font-weight: $fr;
+        text-align: center;
     }
 }
 //section__about

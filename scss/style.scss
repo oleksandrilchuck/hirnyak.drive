@@ -9,6 +9,39 @@
 @import "spollers";
 @import "popup";
 
+//preloader
+// #preloader {
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: #000000;
+//     z-index: 30;
+//   }
+  
+//   .pre_wrapper small {
+//     display: block;
+//     position: relative;
+//     text-align: center;
+//     font-size: 25px;
+//     top: 100px;
+//   }
+  
+//   #preloader .icon_animate {
+//     position: absolute;
+//     width: 170px;
+//     height: 140px;
+//     background: url(../img/icons/logo_svg.svg) center center no-repeat; // Path to preloader icon
+//     background-size: 140px;
+//     /* centering begin */
+//     margin-left: auto;
+//     margin-right: auto;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     /* centering end */
+//   }
 //hero
 .hero {
     max-height: 800px;
@@ -141,7 +174,7 @@
 .slider__wrapper{
     display: flex;
     max-width: 875px;
-    max-height: 379px;
+    max-height: 500px;
     margin: 80px auto;
 }
 .slider__slide{
@@ -157,15 +190,15 @@
 .slider__img{
     max-width: 297px;
     max-height: 297px;
-    padding: 0 20px;
-    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px;
     align-self: center;  
 }
 .slider__img img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: cover;  
 }
 .slider__text {
     max-width: 379px;
@@ -175,7 +208,7 @@
 }
 .rewiew__text {
     font-family: $font-r;
-    font-size: $card-text;
+    font-size: $review-text;
     font-weight: $fr;
     text-align: center;
 }
@@ -291,7 +324,9 @@
 }
 .fcard img{
     max-width: 90px;
+    width: 100%;
     max-height: 76px;
+    height: 100%;
     padding: 20px;
 }
 .fcard__title {
@@ -345,7 +380,7 @@
     font-family: $font-r;
     font-size: $card_text_2;
     font-weight: $fth;
-    max-width: 227px;
+    max-width: 280px;
     max-height: 150px;
     text-align: center;
     padding-bottom: 45px;
@@ -383,14 +418,14 @@
     padding-top: 60px;
 }
 .cost__item-sale {
-    font-family: $font-r;
+    font-family: $font-m;
     font-size: 24px;
     font-weight: $fr;
     
     color: $color-red;
     padding-top: 30px;
     position: relative;
-    max-width: 98px;
+    max-width: 58px;
     max-height: 28px;
     margin: 0 auto;
 }

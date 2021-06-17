@@ -1,4 +1,14 @@
 $(document).ready(function() {
+	//delay popups
+	//$('.popup').delay(3000).animate({'opacity':'1'},500);
+	//preloader
+	// $(window).on('load', function () {
+	// 	var $preloader = $('#preloader'),
+	// 		$icon_animate = $preloader.find('.icon_animate');
+	// 	$icon_animate.fadeOut();
+	// 	$preloader.delay(200).fadeOut('slow');
+	// });
+
 	//burger
     $('.header__burger').click(function(event) {
         $('.header__burger, .header__menu').toggleClass('active');
@@ -14,7 +24,7 @@ $(document).ready(function() {
 		dots: true,
 		responsive:[
 			{
-				breakpoint: 768,
+				breakpoint: 877,
 				settings: {
 					arrows: false,
 				}
@@ -64,7 +74,7 @@ const lockPadding = document.querySelectorAll(".lock-padding");
 
 let unlock = true;
 
-const timeout = 800;
+const timeout = 300;
 
 if (popupLinks.length > 0) {
 	for (let index = 0; index < popupLinks.length; index++) {

@@ -6,11 +6,15 @@
 .btn {
     background-color: $color-yellow;
     color: $color-dark;
-    transition: all .5s;
+    transition: all .3s;
 }
 .btn:hover{
     background-color: $color-red;
 }
+.btn:active{
+    background-color: $color-grey;
+}
+
 //hero
 .hero-btn{
     padding-top: 105px;
@@ -18,7 +22,6 @@
 .hero-button{
     max-width: 458px;
     max-height: 60px;
-    padding: 17px 85px;
     border-radius: 60px;
     padding: 11px 114px;
     text-transform: uppercase;
