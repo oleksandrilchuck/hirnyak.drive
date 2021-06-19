@@ -1480,7 +1480,13 @@ body.lock-scroll {
 
 @media (max-width: 768px) {
   .slider__slide {
-    min-height: 550px;
+    min-height: 440px;
+  }
+  .rewiew__text {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
   }
 }
 
