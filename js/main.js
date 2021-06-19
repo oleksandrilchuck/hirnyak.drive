@@ -8,7 +8,9 @@ $(document).ready(function() {
 	// 	$icon_animate.fadeOut();
 	// 	$preloader.delay(200).fadeOut('slow');
 	// });
-
+	$(document).ready(function() {
+		$('#popup, #popup_2, #popup_3').removeClass('hidden-div');
+	  });
 	//burger
     $('.header__burger').click(function(event) {
         $('.header__burger, .header__menu').toggleClass('active');

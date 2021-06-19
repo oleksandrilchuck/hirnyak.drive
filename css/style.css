@@ -488,6 +488,10 @@ body.lock-scroll {
   transition: all 0.8s ease 0s;
 }
 
+.hidden-div {
+  display: none;
+}
+
 .popup.open {
   opacity: 1;
   visibility: visible;
@@ -732,7 +736,6 @@ body.lock-scroll {
 }
 
 .slider__item {
-  max-height: 505px;
   height: 100%;
   margin: 0 20px;
   margin-bottom: 10px;
@@ -1004,7 +1007,7 @@ body.lock-scroll {
 
 .study__item {
   width: 360px;
-  max-height: 462px;
+  max-height: 562px;
   background-color: #2B303B;
   border-radius: 10px;
   display: -webkit-box;
@@ -1475,12 +1478,21 @@ body.lock-scroll {
   }
 }
 
+@media (max-width: 768px) {
+  .slider__slide {
+    min-height: 550px;
+  }
+}
+
 @media (max-width: 360px) {
   .rewiew__text {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+  }
+  .slider__slide {
+    min-height: 480px;
   }
 }
 
@@ -1587,7 +1599,6 @@ body.lock-scroll {
   }
   .study__item {
     width: 360px;
-    max-height: 462px;
     background-color: #2B303B;
     border-radius: 10px;
     display: -webkit-box;
@@ -1617,7 +1628,7 @@ body.lock-scroll {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     font-weight: 300;
-    max-width: 227px;
+    max-width: 257px;
     max-height: 150px;
     text-align: center;
     padding-bottom: 45px;

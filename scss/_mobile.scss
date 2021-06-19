@@ -1,5 +1,4 @@
 //header
-
 @media (max-width: 950px){
     // header
     body.lock{
@@ -223,12 +222,20 @@
         height: 12px;
     }
 }
+@media (max-width: 768px) {
+    .slider__slide{
+        min-height: 550px;
+    }
+}
 @media (max-width: 360px){
     .rewiew__text {
         font-family: $font-r;
         font-size: $m-review-text;
         font-weight: $fr;
         text-align: center;
+    }
+    .slider__slide{
+        min-height: 480px;
     }
 }
 //section__about

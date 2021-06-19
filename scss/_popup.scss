@@ -1,3 +1,4 @@
+
 .popup {
 	position: fixed;
 	width: 100%;
@@ -11,6 +12,9 @@
 	overflow-y: auto;
 	overflow-x: hidden;
 	transition: all 0.8s ease 0s;
+}
+.hidden-div{
+	display: none;
 }
 .popup.open {
 	opacity: 1;
