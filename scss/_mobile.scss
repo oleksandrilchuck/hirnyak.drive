@@ -328,7 +328,6 @@
     }
     .study__item {
         width: 360px;
-        max-height: 462px;
         background-color: $color-grey;
         border-radius: 10px;
         display: flex;
@@ -349,7 +348,7 @@
         font-family: $font-r;
         font-size: $m-card_text_2;
         font-weight: $fth;
-        max-width: 227px;
+        max-width: 257px;
         max-height: 150px;
         text-align: center;
         padding-bottom: 45px;
