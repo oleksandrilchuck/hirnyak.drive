@@ -591,8 +591,8 @@ body.lock-scroll {
 .hero {
   max-height: 800px;
   width: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(17, 20, 27, 0.88)), to(rgba(17, 20, 27, 0.88))), url(../img/hero_section.jpg);
-  background: linear-gradient(0deg, rgba(17, 20, 27, 0.88), rgba(17, 20, 27, 0.88)), url(../img/hero_section.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(17, 20, 27, 0.68)), to(rgba(17, 20, 27, 0.68))), url(../img/hero_section.jpg);
+  background: linear-gradient(0deg, rgba(17, 20, 27, 0.68), rgba(17, 20, 27, 0.68)), url(../img/hero_section.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -924,7 +924,6 @@ body.lock-scroll {
 }
 
 .features__cards {
-  background-image: url(../img/weel1.png);
   background-repeat: no-repeat;
   background-position: center;
 }
