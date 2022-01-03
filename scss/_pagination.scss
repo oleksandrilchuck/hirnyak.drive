@@ -1,0 +1,147 @@
+//pagination
+.pagination__wrapper{
+    max-width: 380px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.pagination a {
+    background-color: $color-yellow;
+    font-family: $font-m;
+    font-size: 24px;
+    font-weight: $fm;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 7px;
+    transition: all 0.3s ease-in-out;
+}
+.pagination span{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+  
+.pagination a {
+    color: #000000;
+}
+  
+.pagination a:hover {
+    background-color: $color-red;
+    border-color: transparent;
+    color: #fff;
+}
+  
+.pagination a > img {
+    width: 20px;
+    height: 40px;
+}
+  
+// .pagination a > i:before {
+//     line-height: 40px;
+// }
+  
+// .pagination a:first-child, .pagination a:last-child {
+//    // background-color: #fff;
+// }
+  
+// .pagination a:first-child:hover, .pagination a:last-child:hover {
+//     color: #c0945c;
+// }
+  
+.pagination a:first-child {
+    margin-right: 15px;
+    background-color: transparent;
+}
+  
+.pagination a:last-child {
+    margin-left: 15px;
+    background-color: transparent;
+}
+  
+.pagination .current {
+    color: #fff;
+    background-color: $color-red;
+    font-family: $font-m;
+    font-size: 24px;
+    //display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+@media (max-width: 468px){     
+    .pagination a {
+        font-size: 24px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 4px;
+    }
+    .pagination span{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }  
+    .pagination a > img {
+        width: 18px;
+        height: 35px;
+    } 
+    .pagination a:first-child {
+        margin-right: 0px;
+    }
+      
+    .pagination a:last-child {
+        margin-left: 0px;
+    }
+      
+    .pagination .current {    
+        font-size: 24px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 7px;
+    }
+    
+}
+
+//pagination-post-page
+.pagination__post-wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.pagination-post {
+    display: flex;
+    justify-content: space-between;
+}
+.pagination-post a{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color-yellow;
+    transition: all 0.3s ease-in-out;
+    margin: auto 20px;
+}
+.pagination-post a:hover{
+    background-color: $color-red;   
+}
+.pagination-post a > img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}

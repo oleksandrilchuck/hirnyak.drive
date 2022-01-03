@@ -1,0 +1,111 @@
+.categorys__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.categorys__card {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-grey;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px $color-yellow;
+    max-width: 1140px;
+    //max-height: 500px;
+    margin:40px 0;
+}
+.categorys__img {
+    max-width: 487px;
+    //max-height: 441px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;  
+    margin-right: 0;
+}
+.categorys__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.categorys__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 503px;
+    margin-left: 36px;
+    //max-height: 441px;
+}
+.categorys__card-title {
+    font-family: $font-m;
+    font-weight: $fr;
+    font-size: 32px;
+    line-height: 120%;
+    color: $color-red;
+    padding-bottom: 18px;
+}
+.categorys__card-text {
+    font-family: $font-r;
+    font-weight: $fr;
+    font-size: 30px;
+    line-height: 120%;
+    color: $color-white;
+    text-align: left;
+    padding-bottom: 97px;
+    margin-right: 36px; 
+}
+.categorys__card-btn{
+    max-width: 257px;
+    margin-left: auto;
+    margin-right: 36px;
+    margin-bottom: 27px;
+}
+.categorys__card-btn a {
+    max-width: 257px;
+    padding: 5px 36px;
+    font-family: $font-r;
+    font-weight: $fm;
+    line-height: 120%;
+    font-size: 32px;
+    border-radius: 60px;
+}
+@media (max-width: 992px) { 
+    .categorys__card {
+        margin: 20px auto;
+        flex-direction: column;
+        max-width: 520px;
+    }
+    .categorys__img{
+        margin: 18px;  
+    }
+    .categorys__content{
+        margin: auto 18px;
+    }
+}
+@media (max-width: 470px) { 
+    .categorys__wrapper {
+        margin-bottom: 50px;
+    }
+    .categorys__card-title {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .categorys__card-text {
+        font-size: 24px;
+        padding-bottom: 57px;
+        margin-right: 0px; 
+    }
+    .categorys__card-btn{
+        max-width: 257px;
+        margin-left: auto;
+        margin-right: 0px;
+        margin-bottom: 27px;
+    }
+    .categorys__card-btn a {
+        font-size: 24px;
+    }
+}
+@media (max-width: 380px) { 
+    .categorys__img{
+        margin: 8px;  
+    }
+}

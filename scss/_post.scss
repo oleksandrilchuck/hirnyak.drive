@@ -1,0 +1,130 @@
+.post__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: $color-grey;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px $color-yellow;
+    max-width: 1140px;
+}
+.post__content{
+    max-width: 1068px;
+    margin: 35px 20px;  
+}
+.post__title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-family: $font-m;
+    font-size: $h1;
+    font-weight: $fm;
+    line-height: 120%;
+    color: $color-red;
+}
+.post__img {
+    max-width: 1087px;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 16px;
+    margin-top: 16px;
+}
+.post__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.post__text {
+    font-family: $font-m;
+    font-size: $card-text;
+}
+
+.post__subtitle-2 {
+    font-family: $font-m;
+    font-size: $h2;
+    line-height: 120%;
+    font-weight: $fm;
+    color: $color-yellow;
+}
+.post__subtitle-3 {
+    font-family: $font-m;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: $fm;
+    color: $color-yellow;
+}
+.post__subtitle-4 {
+    font-family: $font-m;
+    font-size: 30px;
+    line-height: 120%;
+    font-weight: $fm;
+    color: $color-yellow;
+}
+.post__ul {
+    padding-left: 30px;
+}
+.post__ul li {
+    font-family: $font-r;
+    font-size: $card-text;
+    position: relative;
+}
+.post__ul li::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $color-white;
+    position: absolute;
+    top: 9px;
+    left: -30;
+}
+.post__ol {
+    padding-left: 25px;
+}
+.post__ol li {
+    font-family: $font-r;
+    font-size: $card-text;
+}
+@media (max-width: 640px) {
+    .post__content{
+        margin: 25px 20px;   
+    }
+    .post__title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: $m-h1;
+    }
+    .post__img {
+        max-width: 1087px;
+        max-height: 300px;
+    }
+    .post__text {
+        font-size: $m-card-text;
+    }
+    
+    .post__subtitle-2 {
+        font-size: 32px;
+    }
+    .post__subtitle-3 {
+        font-size: 28px;
+    }
+    .post__subtitle-4 {
+        font-size: 24px;
+    }
+    .post__ul {
+        padding-left: 20px;
+    }
+    .post__ul li {
+        font-size: $m-card-text;
+    }
+    .post__ul li::after {
+        top: 4px;
+        left: -20;
+    }
+    .post__ol {
+        padding-left: 20px;
+    }
+    .post__ol li {
+        font-size: $m-card-text;
+    }
+}

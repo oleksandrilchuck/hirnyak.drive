@@ -29,6 +29,7 @@
     font-size: $button;
     font-weight: $fm;
 }
+
 //study
 .study__item-btn {
     padding-bottom: 46px;
@@ -61,4 +62,15 @@
 .pop-btn{
     padding-top: 20px;
 }
-
+//blog
+.blog__card-btn {
+    justify-content: start;
+}
+.blog__card-btn a{
+    font-family: $font-r;
+    font-size: 24px;
+    border-radius: 15px;
+    padding: 5px 18px;
+    margin-bottom: 28px;
+    margin-left: 25px;
+}
